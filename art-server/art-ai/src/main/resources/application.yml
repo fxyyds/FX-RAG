@@ -4,9 +4,9 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: ${NACOS_HOST:art-nacos}:8848
+        server-addr: 127.0.0.1:8848
       discovery:
-        server-addr: ${NACOS_HOST:art-nacos}:8848
+        server-addr: 127.0.0.1:8848
       username: nacos
       password: art-nacos
   config:
@@ -22,10 +22,10 @@ spring:
 
 tmp:
   embedding:
-    host: ${PG_VECTOR_HOST:art-pg_vector}
+    host: 127.0.0.1
     port: 5432
     database: art
-    user: root
+    user: art
     password: art-pgvector-password
     dimension: 1024
     table: ai_vector_store
