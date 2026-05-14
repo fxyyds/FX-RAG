@@ -15,7 +15,8 @@
 .db
 data/
 logs/
-_other/
+_other/docker/nacos/
+_other/docker/optional/pgvector/pgdata/
 
 ### IntelliJ IDEA ###
 .idea
