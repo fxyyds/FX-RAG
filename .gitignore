@@ -15,6 +15,7 @@
 .db
 data/
 logs/
+_other/
 
 ### IntelliJ IDEA ###
 .idea
